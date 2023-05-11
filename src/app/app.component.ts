@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'STD-portal';
+  title = 'Fideicomiso por los niños';
+  today = new Date();
+  date = new Date();
+  formattedDate = this.date.toLocaleDateString('en-US', {day: 'numeric', month: 'short', year: 'numeric'});
+
+
 }
