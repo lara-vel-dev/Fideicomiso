@@ -10,6 +10,12 @@ export class AppComponent {
   today = new Date();
   date = new Date();
   formattedDate = this.date.toLocaleDateString('en-US', {day: 'numeric', month: 'short', year: 'numeric'});
-
+ obj = {
+    img: [
+      {
+        xd:'hola'
+      }
+    ]
+ }
 
 }
